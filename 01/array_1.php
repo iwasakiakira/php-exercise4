@@ -1,5 +1,5 @@
 <?php 
-
+//
 $countries = ['Japan', 'America', 'China'];
 
 echo $countries[0] . '<br>';
