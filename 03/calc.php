@@ -19,6 +19,3 @@ if ($operator === 'addition') {
 } else {
     echo '正しい演算子を指定して下さい｡';
 }
-
-
-?>
