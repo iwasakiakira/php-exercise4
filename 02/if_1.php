@@ -4,9 +4,9 @@ $b = 2;
 
 if ($a == $b) {
     echo '入力された値は等しいです';
-}elseif ($a > $b) {
+} elseif ($a > $b) {
     echo $a;
-}elseif ($b > $a) {
+} elseif ($b > $a) {
     echo $b;
 }
 

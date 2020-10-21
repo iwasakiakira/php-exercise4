@@ -2,16 +2,16 @@
 $num = 6;
 
 $flg = true;
-for ($i=2; $i < $num ; $i++) { 
+for ($i=2; $i < $num; $i++) { 
     if ($num % $i == 0) {
         $flg = false;
-    break;
+        break;
     }
 }
 
 if ($flg) {
     echo $num . 'は素数です｡';
-}else {
+} else {
     echo $num . 'は素数ではありません｡';
 }
 

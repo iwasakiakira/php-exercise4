@@ -1,21 +1,22 @@
 <?php 
+
 $num1 = $_GET['num1'];
 $num2 = $_GET['num2'];
-$r1 = $_GET['operator'];
+$operator = $_GET['operator'];
 
-if ($r1 === 'addition') {
+if ($operator === 'addition') {
     echo $num1 . ' + ' . $num2 . ' = ';
     echo $num1 + $num2;
-}elseif ($r1 === 'subtraction') {
+} elseif ($operator === 'subtraction') {
     echo $num1 . ' - ' . $num2 . ' = ';
     echo $num1 - $num2;
-}elseif ($r1 === 'multiplication') {
+} elseif ($operator === 'multiplication') {
     echo $num1 . ' * ' . $num2 . ' = ';
     echo $num1 * $num2;
-}elseif ($r1 === 'division') {
+} elseif ($operator === 'division') {
     echo $num1 . ' / ' . $num2 . ' = ';
     echo $num1 / $num2;
-}else{
+} else {
     echo '正しい演算子を指定して下さい｡';
 }
 
